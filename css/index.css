@@ -8,7 +8,7 @@ body{
 	bottom: 0;
 	overflow: scroll;
 }
-.mainbody::-webkit-scrollbar{
+.mainbody::-webkit-scrollbar-{
 	width: 0;
 }
 /*灯泡*/
@@ -156,13 +156,13 @@ header img{
 	max-width: 60px;
 }
 .school{
-	animation: fadeIn .8s linear both 1.3s;
+	animation: fadeIn 2.8s linear both 2.8s;
 }
 .work{
-	animation: fadeIn .8s linear both 1.8s;
+	animation: fadeIn 2.8s linear both 3.8s;
 }
 .major{
-	animation: fadeIn .8s linear both 2.3s;
+	animation: fadeIn 2.8s linear both 4.8s;
 }
 @keyframes fadeIn{
 	0%{
